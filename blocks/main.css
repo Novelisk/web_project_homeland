@@ -1,6 +1,7 @@
 .main {
   max-width: 990px;
   margin: 92px auto;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
 }
@@ -69,6 +70,8 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .main {
     margin: 64px auto;
+    margin-bottom: 0;
+    align-items: center;
   }
 
   .main__title {
